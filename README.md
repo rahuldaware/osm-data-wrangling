@@ -108,8 +108,22 @@ The following queries are also a part of ```pymongo_impl.py``` file. Now Let us 
  {u'_id': u'swimming', u'count': 96},  
  {u'_id': u'soccer', u'count': 79}]  
 
+### Step 6 : Other Ideas about the Dataset
 
+The dataset has lot of missing information. This information can be found out by other ways. Firstly, we have information about the latitude and longitude. We can use this as a query to Google Maps API and get additional information. We can then add this information to our JSON and then perform additional queries. Secondly, we can use crowd sourcing techniques. We could use location specific apps or games and gather more knowledge from localites. Applications like Waze and Pokemon Go could come into help. 
 
-### Step 6 : Conclusion
+This kind of new information would always come into help as our data becoes more uniform and reliable. In the sectio above, I have run some sample queries to gain more knowledge about San Jose City. By improving our dataset, we can get improved result to this query. Also, we can run a lot more new queries.  
+
+There are some benefits and some disadvantages for using these methods :
+Benefits :  
+  1. We can get additional information which our current dataset cannot provide.  
+  2. The information would be more reliable if verified from different sources.
+  3. The information would get updated eventually. For example, if a restaurant shuts down, real time APIs like Google Maps will identify that quickly.
+  
+Disadvantages :  
+  1. It would be difficult to incorporate knowledge from these new sources as they would not be in similar format.
+  2. Crowd sourcing applications would need time to gather information. This information may change with time.
+
+### Step 7 : Conclusion
 
  The San Jose City OSM dataset contains 793 different types of tags. Hence, you can see, it is very difficult to find uniform data easy enough to be used directly with Mongo DB. Hence, I tried to clean the data as much as possible. We can add more attributes to nodes and run more queries on it. I found a lot of missing data. For example, I tried to run a query to find which is most popular cuisine in San Jose. I found there is no restaurant type information available. Some queries did go through successfully. For example, I was able to find that tennis is the most popular sport in San Jose as there are higher number of nodes with tennis sport facility.
