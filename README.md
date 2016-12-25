@@ -9,6 +9,7 @@ This project is a wok of Data Wrangling over a dataset downloaded from OpenStree
 3. ```pymongo_impl.py``` : Contains all queries run against the Mongo DB database.  
 4. ```report.html``` : HTML format of this report
 5. ```report.ipynb``` : iPython format of the report
+6. ```sample.osm``` : A sample file which is first 10 MB of San Jose OSM database  
 
  
 Note:  The dataset is not provided in this project repository. To download, please find the link below. After running wrangling tasks on the dataset, A JSON file will be generated. It should be imported into your Mongo DB dataset with database name as "san_jose" and collection name as "osm".
