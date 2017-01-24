@@ -1,7 +1,7 @@
 
 # Open Street Map Data Wrangling with Python and MongoDB
 
-This project is a wok of Data Wrangling over a dataset downloaded from OpenStreetMaps website of city of San Jose. After importing the XML data into Python code, we will analyse, clean, convert to JSON and then import data into a mongoDB dataset. After importing data into a Mongo DB database, we will perform some queries and gain additional knowledge from the dataset.
+This project is a work of Data Wrangling over a dataset downloaded from OpenStreetMaps website for the city of San Jose, California. After importing the XML data into Python code, I analyzed, cleaned, converted XML data to JSON and then imported data into mongoDB. Next, I performed some queries and gained additional knowledge from the dataset.
 
 ## Relevant Files
 1. ```README.md``` : Contains the entire project report for Github purpose.  
